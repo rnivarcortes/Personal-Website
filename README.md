@@ -1,2 +1,2 @@
 # Personal-Website
-This is my personal website in which I've practiced my skills in HTML, CSS, and JavaScript.
+This is my personal website in which I've practiced my skills in HTML, CSS, and JavaScript. Everything was made from scratch with no outside use from any API or libraries, so it's rough around the edges, but the goal is to allow me to practice my skills in Frontend development and eventually move more towards Backend. Eventually, I liked to have it on a public service so it doesn't have to be ran remotely and move to a commonly used framework such as React. Currently, I haven't been able to put in many hours into during the Fall 2024 semester, but I'm hoping to revisit it during breaks and post-graduation.
