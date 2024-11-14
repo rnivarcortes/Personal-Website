@@ -1,0 +1,114 @@
+body {
+    /*background-image: url(images/blacknight.jpg);*/
+    color: red;
+}
+
+p {
+    color: rgb(167, 159, 159);
+}
+
+h1 {
+    color: rgb(107, 78, 211);
+    text-align: center;
+}
+
+span.topbar {
+    background-color: rgb(23, 23, 86);
+    padding: 6px 10px;
+    border-radius: 14px;
+}
+
+div.topbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+p.topbar {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    margin: auto;
+}
+
+a.topbar {
+    color: rgb(220, 217, 217);
+}
+
+.sections {
+    color: rgb(23, 23, 86);
+    text-align: center;
+}
+
+#background, #skills, #projects {
+    text-align: center;
+}
+
+.buttons {
+    background-color: rgb(243, 243, 243);
+    border: 5px;
+    color: #000000;
+    padding: 14px 32px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.6s;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    width: 100%;
+    zoom: 1;
+}
+
+.bottom {
+    background-color:rgb(23, 41, 48);
+    color:white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: none;
+    cursor: pointer; 
+    width: 100px;
+    height: 26px;
+    border-radius: 13px;
+}
+
+.bottom:hover {
+    opacity: 0.8;
+    box-shadow: 4px 4px 10px #000;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+img.symbols {
+    height: 72px;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
+
+img.css {
+    margin-left: 16px;
+}
+
+img.nodejs {
+    margin-left: 16px
+}
+
+img.react {
+    margin-left: 40px;
+}
+
+#skills-symbols {
+    padding: 14px 32px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.6s;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    width: 100%;
+    justify-content: space-around;
+}

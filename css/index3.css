@@ -1,0 +1,191 @@
+/*Color Pallete
+#99b898 = sea green
+#FECEA8 = tan
+#ff847c = coral
+#e84a5f = hot pink
+#2a363B = dark ivy
+
+blue green palette
+#CFF09E  #A8DBA8  #79BD9A  #3B8686  #0B486B
+
+
+/*General*/
+body {
+  margin-top: 100px;
+  background-color: #3b8686;
+}
+
+/*Title*/
+.top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+
+  background-color: #cff09e;
+  border-color: white;
+  border-style: groove;
+  border-radius: 6px;
+  z-index: 2;
+}
+
+.title {
+  height: 36px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+  background-color: transparent;
+  z-index: 100;
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  color: black;
+}
+
+.title-section {
+  font-family: "Press Start 2P";
+  font-size: 20px;
+  align-items: center;
+}
+
+.options-section {
+  width: 180px;
+  flex: 1;
+  align-items: center;
+}
+
+.menu {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  height: 24px;
+  margin-left: 64px;
+}
+
+/*Section Bar*/
+.section-bar {
+  font-family: Roboto;
+  font-size: 14px;
+
+  height: 24px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 52px;
+  left: 100px;
+  right: 100px;
+
+  margin-left: 16px;
+  margin-right: 16px;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #cff09e;
+  z-index: 100;
+}
+
+.background-section,
+.skills-section,
+.projects-section,
+.links-section {
+  cursor: pointer;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 2px;
+  margin-top: 2px;
+}
+
+.background-section:hover,
+.skills-section:hover,
+.projects-section:hover,
+.links-section:hover {
+  background-color: rgb(218, 218, 218);
+}
+
+/*Background*/
+.background {
+  text-align: center;
+  font-family: Roboto;
+}
+
+.background-info {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: row;
+}
+
+.bio {
+  flex: 1;
+}
+
+.user-pictures {
+  flex: 1;
+
+  text-align: center;
+}
+
+/*Skills*/
+.skills {
+  font-family: Roboto;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+
+  max-width: 736px;
+}
+
+.skills-grid {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  justify-content: center;
+}
+
+.skill {
+  height: 84px;
+}
+
+.skill-symbol {
+  height: 50px;
+}
+
+.skill-caption {
+  font-size: 12px;
+}
+
+/*Projects*/
+.projects {
+  font-family: Roboto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.projects-grid {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.more-projects {
+  margin-top: 32px;
+}
+
+/*Links*/

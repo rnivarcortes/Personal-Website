@@ -1,0 +1,113 @@
+/*Defaults*/
+h1,
+h2,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*General*/
+.section-title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/*Title*/
+.intro {
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 18px;
+}
+
+/*Nav*/
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.nav {
+  display: inline-block;
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+/*Background*/
+.background {
+  text-align: center;
+}
+
+.background-info {
+  vertical-align: top;
+}
+
+.bio {
+  width: 400px;
+  margin-bottom: 24px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 24px;
+}
+
+.profile-pics {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 24px;
+}
+
+.main-profile-pic {
+  width: 300px;
+  margin-top: 0px;
+  border-radius: 98px;
+}
+
+/*Skills*/
+.skills {
+  margin-bottom: 24px;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-right: 20%;
+  margin-left: 20%;
+  column-gap: 10px;
+  row-gap: 20px;
+}
+
+.skill {
+  text-align: center;
+}
+
+.symbol {
+  width: 54px;
+}
+
+.symbol-caption {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/*Projects*/
+.projects {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-picture {
+  height: 128px;
+}
+
+/*Links*/
+.links {
+  text-align: center;
+}
+
+.link {
+  display: inline-block;
+}

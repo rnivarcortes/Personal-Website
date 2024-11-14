@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/home-page.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Meet Ricardo A. Nivar Cortes</title>
+  </head>
+
+  <body>
+    <header>
+      <div id="title">Welcome to My Space</div>
+      <nav>
+        <div class="background-shortcut">
+          <a href="#title">Background</a>
+        </div>
+        <div class="skills-shortcut">
+          <a href="#background-title">Skills</a>
+        </div>
+        <div class="projects-shortcut">
+          <a href="#skills-title">Projects</a>
+        </div>
+        <div class="links-shortcut">
+          <a href="#projects-title">Links</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="background">
+        <div id="background-title">Background</div>
+        <div class="background-info">
+          <div class="bio">
+            I'm an aspiring Software Engineer that's currently a 5th-Year
+            Computer Engineering student at the University of Florida. During my
+            time at UF, I've honed my interest in the field to three specific
+            concentrations: Frontend Development, AI & Machine Learning, and
+            Project Management. I also have a fair understanding of Object
+            Oriented Programming; specifically with Java, C, & C++. Overall, I
+            have been introduced to most subfields within the field known as
+            Software Engineer which encompases endless possibilities. This
+            website is meant to share my journey as a Software Engineer.
+          </div>
+          <div class="picture">
+            <img class="profile-picture" src="../images/profile-pic.png" />
+          </div>
+        </div>
+      </div>
+      <div class="skills">
+        <div id="skills-title">Skills</div>
+        <div class="skills-info">
+          <div class="skills-topic">Web Development</div>
+          <div class="skills-scroll">
+            <div class="skill">
+              <img class="skill-symbol" src="../images/html.png" />
+            </div>
+            <div class="skill">
+              <img class="skill-symbol" src="../images/css.png" />
+            </div>
+            <div class="skill">
+              <img class="skill-symbol" src="../images/javascript.png" />
+            </div>
+            <div class="skill">
+              <img class="skill-symbol" src="../images/reactjs.png" />
+            </div>
+          </div>
+          <button class="all-skills" type="button">
+            Select to View All Skills
+          </button>
+        </div>
+      </div>
+      <div class="projects">
+        <div id="projects-title">Projects</div>
+        <div class="project">
+          <button
+            class="left-arrow"
+            onclick="
+            if (count > 0) {
+              count--;
+            } else {
+              count = projects.length - 1;
+            }
+            
+            changeProject();
+            "
+          >
+            &lt;-
+          </button>
+          <img class="project-img" src="../images/blacknight.jpg" />
+          <div class="project-info">
+            <div class="description"></div>
+            <br />
+            <div class="skills-used"></div>
+          </div>
+          <button
+            class="right-arrow"
+            onclick="
+          if (count < projects.length - 1) {
+            count++;
+          } else {
+            count = 0;
+          }
+
+          changeProject();
+          "
+          >
+            -&gt;
+          </button>
+        </div>
+        <button class="all-projects" type="button">All Projects</button>
+      </div>
+      <div class="links">
+        <div id="links-title">Links</div>
+        <div class="links-grid">
+          <a href="https://github.com/rnivarcortes" target="_blank">
+            <button class="github-button" type="button">
+              Github <img class="github" src="../icons/github.png" />
+            </button>
+          </a>
+          <a
+            href="http://www.linkedin.com/in/ricardo-nivar-cortes-b54845183"
+            target="_blank"
+          >
+            <button class="linkedin-button" type="button">
+              LinkedIn <img class="linkedin" src="../icons/linkedin.webp" />
+            </button>
+          </a>
+          <a href="http://instagram.com/rico.a.cortes/" target="_blank"
+            ><button class="instagram-button" type="button">
+              Instagram
+              <img class="instagram" src="../icons/instagram.png" /></button
+          ></a>
+        </div>
+      </div>
+    </main>
+    <script>
+      const projects = [
+        {
+          image: "../images/ethical-eats-project.png",
+
+          description:
+            "Ethical Eats is an application centered around helping people learn about the sustainability practices of different restaurants. While my group and I never actually programmed the app, we went through the whole design process where we conducted various user studies and interviews.",
+
+          skills: "Figma, UI/UX Design Process, Google Drive",
+        },
+
+        {
+          image: "../images/personal-website.png",
+
+          description:
+            "This is my personal website where I share my personal projects along with a short description and the skills used during the project. Alongside that, you have access to learn what skills I have and different links relating to me.",
+
+          skills: "HTML, CSS, JavaScript",
+        },
+
+        {
+          image: "../images/sea-turtle-project.png",
+
+          description:
+            "This was a project I worked on during my 'Fundamentals of AI' course. During the project, I used machine learning in order to recognize patterns in regards to diet, looks, basic facts, etc. of various species of sea turtles.",
+
+          skills:
+            "AI, Machine Learning, Regression Analysis, Image Identification, Google Data Studio",
+        },
+
+        {
+          image: "../images/codesparks-project.png",
+
+          description:
+            "This was a project I worked on during my 'Introduction to Software Engineeirng' course. During the project, my team and I were tasked with the home page and site navigation of a website called 'CodeSparks' whose goal was to help young stuents learn the basis of coding by using block-coding",
+
+          skills: "React, Node.js, HTML, CSS, JavaScript",
+        },
+
+        {
+          image: "../images/youtube-project.png",
+
+          description:
+            "This was a personal project I worked on over Summer 2024. I just created my own version of the YouTube home page. My goal was focused on understanding and developing my skills in HTML and CSS so it lacks any functionality.",
+
+          skills: "HTML, CSS",
+        },
+      ];
+
+      let count = 0;
+
+      changeProject();
+
+      function changeProject() {
+        document.querySelector(".project-img").src = projects[count].image;
+        document.querySelector(
+          ".description"
+        ).innerHTML = `Description: ${projects[count].description}`;
+
+        document.querySelector(
+          ".skills-used"
+        ).innerHTML = `Skills: ${projects[count].skills}`;
+      }
+
+      function changeSkill() {}
+    </script>
+  </body>
+</html>
